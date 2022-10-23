@@ -1,4 +1,4 @@
-ARG INDEXER_SERVICE_TAG=latest
+ARG INDEXER_SERVICE_TAG=v0.20.3
 
 FROM golang:1.18-bullseye as build
 
