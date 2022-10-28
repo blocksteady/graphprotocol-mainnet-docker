@@ -50,8 +50,6 @@ services:
 
   indexer-service:
     build: ./autoagora-indexer-service
-      args:
-        INDEXER_SERVICE_TAG: v0.20.3
     container_name: indexer-service
     depends_on:
       - index-node-0
